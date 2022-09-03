@@ -1,0 +1,14 @@
+{
+    "books": [
+      {
+        "id": 1,
+        "name": "Example Article",
+        "content": "This is an example."
+      },
+      {
+        "id": 2,
+        "name": "Second Article",
+        "content": "This is also an example."
+      }
+    ]
+  }
