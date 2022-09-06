@@ -1,12 +1,10 @@
 let books = [];
-// debugger
 
 function fetchBooks() {
   fetch('https://anapioficeandfire.com/api/books')
   .then( (response) => (response.json()))
   .then( (response) => books = response)
   .then( books => books.forEach(books => renderBooks(books)));
-
 }
 
 function renderBooks(books) {
